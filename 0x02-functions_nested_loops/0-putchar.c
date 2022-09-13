@@ -1,13 +1,17 @@
-#include "alx.h"
+#include "_putchar.h"
 /**
-* print_alphabet - a function that prints the alphabet, in lowercase * Return: Always 0 (Succes)
+*main - Entry point
+*
+* Return: Always 0 (Succes)
 */
-void print_alphabet(void)
+int main(void)
 {
-int n;
-for (n = 'a'; n <= 'z'; n++)
+char *sh = "_putchar";
+while (*sh)
 {	
-_putchar(n);
+_putchar(*sh);
+sh++;
 }	
 _putchar('\n');
+return (0);
 }
