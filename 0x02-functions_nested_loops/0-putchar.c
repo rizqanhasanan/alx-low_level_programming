@@ -1,17 +1,18 @@
-#include "main.h"
+#include "stdio.h"
 /**
-*main - Entry point
+*main - program that prints _putchar.
 *
-* Return: Always 0 (Succes)
+* Return: init
 */
 int main(void)
 {
-char *sh = "_putchar";
-while (*sh)
+int n=0;
+char str_put[8] = "_putchar";
+while (n< 8)
 {	
-_putchar(*sh);
-sh++;
+putchar(str_put[n]);
+n = 1;
 }	
-_putchar('\n');
+putchar('\n');
 return (0);
 }
