@@ -1,6 +1,6 @@
 #include  <stdio.h>
 /**
-* main - creates an infinite loop
+*  main - causes an infinite loop
 * Return: 0
 */
 int main(void)
@@ -12,6 +12,6 @@ i = 0;
  {
  putchar(i);
  }
-printf("Infinite loop evaded! \\o/\n");
+printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
