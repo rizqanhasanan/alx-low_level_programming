@@ -5,13 +5,15 @@
  *
  * Return: n
  */
-char *string_toupper(char *s)
+char *string_toupper(char *n)
 {
-int i = 0;
-while (s[i])
+int i;
+i = 0;
+while (n[i] != '\0')
 {
-s[i] = toupper(s[i]);
+if (n[i] >= 'a' && n[i] <= 'z')
+n[i] = n[i] - 32;
 i++;
 }
-return (s);
+return (n);
 }
