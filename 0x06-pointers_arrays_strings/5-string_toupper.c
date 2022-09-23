@@ -1,3 +1,5 @@
+#include "main.h"
+#include <ctype.h>
 /**
 * string_toupper - This function will replace all lowercase letters in
 * the string pointed by str to uppercase
