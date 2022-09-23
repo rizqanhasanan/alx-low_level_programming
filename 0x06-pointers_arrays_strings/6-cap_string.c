@@ -1,10 +1,8 @@
 /**
-* cap_string - a function that capitalizes
-* all words of a string
+* cap_string - Capitalizes all words of a string.
+* @str: The string to be capitalized.
 *
-* @s: pointer to char input array
-*
-* Return: @s
+* Return: A pointer to the changed string.
 */
 char *cap_string(char *str)
 {
