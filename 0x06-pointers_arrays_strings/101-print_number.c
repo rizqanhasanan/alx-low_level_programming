@@ -1,19 +1,29 @@
 /**
-* main - check the code
-*
-* Return: Always 0.
-*/
-int main(void)
+* print_number - print numbers chars
+* @n: integer params
+* Return: 0
+**/
+void printnumber(int i)
 {
-print_number(98);
-_putchar('\n');
-print_number(402);
-_putchar('\n');
-print_number(1024);
-_putchar('\n');
-print_number(0);
-_putchar('\n');
-print_number(-98);
-_putchar('\n');
-return (0);
+if(i/10!=0)
+{
+printnumber(i/10);
+if ( i > 0 )
+{
+putchar(i%10 + '0');					
+}
+else
+{
+putchar(-i%10 + '0');						
+}
+}
+else if((i/10==0) && (i%10!=0) && (i>0))
+{
+putchar(i%10 + '0');
+}
+else if((i/10==0) && (i%10!=0) && (i<=0))
+{
+putchar('-');
+putchar(-i%10+'0');
+}    
 }
