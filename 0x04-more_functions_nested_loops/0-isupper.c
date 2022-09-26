@@ -1,7 +1,7 @@
 /**
-* _isupper - checks for uppercase character
-* @c: Variable text
-* Return: Always 0.
+* _isupper - checks 
+*
+* 
 */
 int _isupper(int c)
 {
