@@ -1,26 +1,12 @@
-File: 101-hello_holberton.asm
-; Auth: Abdurrazk haruna
-; Desc: 64-bit assembly program that prints
-;       Hello, Holberton followed by a new line.
+#include <stdio.h>
 
-extern printf
-
-section .text
-   global main
-
-main:
-   push rbp
-
-mov rdi,fmt
-   mov rsi,msg
-   mov rax,0
-   call printf
-
-pop rbp
-
-mov rax,0
-   ret
-
-section .data
-   msg: db "Hello, Holberton", 0
-   fmt: db "%s", 10, 0
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+       printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
+	return (0);
+}
