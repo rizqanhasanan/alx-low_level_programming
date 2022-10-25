@@ -1,10 +1,7 @@
-/*
- * File: 0-print_listint.c
- * Auth: Abdurrazak haruna 
- *    */
-
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * print_listint - Prints all the elements of a listint_t list.
