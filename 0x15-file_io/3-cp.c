@@ -14,13 +14,11 @@
  * Return: 0
  */
 
-
 int main(int ac, char **av)
 {
         int fd_from, fd_to, read_count, write_count, close_status;
         char buf[1024];
 	char *file_from, *file_to;
-
 
 	if (ac != 3)
 	dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
